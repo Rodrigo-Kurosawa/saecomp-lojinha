@@ -336,5 +336,248 @@
     "_id": "1749332546611",
     "createdAt": "2025-06-07T21:42:26.611Z",
     "updatedAt": "2025-06-07T21:42:26.611Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334360863",
+    "createdAt": "2025-06-07T22:12:40.863Z",
+    "updatedAt": "2025-06-07T22:12:40.864Z"
+  },
+  {
+    "customerName": "Teste",
+    "customerCourse": "Ciência da Computação",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334531707",
+    "createdAt": "2025-06-07T22:15:31.707Z",
+    "updatedAt": "2025-06-07T22:15:31.708Z"
+  },
+  {
+    "customerName": "Teste Debug",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334557173",
+    "createdAt": "2025-06-07T22:15:57.173Z",
+    "updatedAt": "2025-06-07T22:15:57.173Z"
+  },
+  {
+    "customerName": "Teste",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334571534",
+    "createdAt": "2025-06-07T22:16:11.534Z",
+    "updatedAt": "2025-06-07T22:16:11.534Z"
+  },
+  {
+    "customerName": "João Silva",
+    "customerCourse": "Ciência da Computação",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 2,
+        "subtotal": 7
+      }
+    ],
+    "totalAmount": 7,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334644062",
+    "createdAt": "2025-06-07T22:17:24.062Z",
+    "updatedAt": "2025-06-07T22:17:24.063Z"
+  },
+  {
+    "customerName": "Teste",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334664496",
+    "createdAt": "2025-06-07T22:17:44.496Z",
+    "updatedAt": "2025-06-07T22:22:58.994Z",
+    "paymentId": "pix_1749334664496_1749334978994"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 5,
+        "subtotal": 15
+      }
+    ],
+    "totalAmount": 15,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749334767190",
+    "createdAt": "2025-06-07T22:19:27.190Z",
+    "updatedAt": "2025-06-07T22:19:27.273Z",
+    "paymentId": "pix_1749334767190_1749334767272"
+  },
+  {
+    "customerName": "Teste Checkout",
+    "customerCourse": "Engenharia de Software",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749335094943",
+    "createdAt": "2025-06-07T22:24:54.943Z",
+    "updatedAt": "2025-06-07T22:24:54.975Z",
+    "paymentId": "pix_1749335094943_1749335094975"
+  },
+  {
+    "customerName": "Teste Checkout",
+    "customerCourse": "Engenharia de Software",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749335230692",
+    "createdAt": "2025-06-07T22:27:10.692Z",
+    "updatedAt": "2025-06-07T22:27:10.799Z",
+    "paymentId": "pix_1749335230692_1749335230798"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749335343468",
+    "createdAt": "2025-06-07T22:29:03.468Z",
+    "updatedAt": "2025-06-07T22:29:03.519Z",
+    "paymentId": "pix_1749335343468_1749335343519"
+  },
+  {
+    "customerName": "rodrigo",
+    "customerCourse": "bcc",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749335395187",
+    "createdAt": "2025-06-07T22:29:55.187Z",
+    "updatedAt": "2025-06-07T22:29:55.217Z",
+    "paymentId": "pix_1749335395187_1749335395216"
+  },
+  {
+    "customerName": "av",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749335418362",
+    "createdAt": "2025-06-07T22:30:18.362Z",
+    "updatedAt": "2025-06-07T22:30:18.397Z",
+    "paymentId": "pix_1749335418362_1749335418396"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749336779782",
+    "createdAt": "2025-06-07T22:52:59.782Z",
+    "updatedAt": "2025-06-07T22:52:59.869Z",
+    "paymentId": "pix_1749336779782_1749336779868"
   }
 ]

@@ -92,7 +92,20 @@ const Checkout: React.FC = () => {
                 navigate(`/order-success/${newOrderId}`, { state: { orderId: newOrderId } });
             }
         } catch (err: any) {
-            setError(err.message || 'Erro ao processar pedido');
+            console.error('Checkout error:', err);
+            let errorMessage = 'Erro ao processar pedido';
+            
+            if (err.message) {
+                errorMessage = err.message;
+            } else if (err.response?.data?.message) {
+                errorMessage = err.response.data.message;
+            } else if (err.code === 'ECONNABORTED') {
+                errorMessage = 'Timeout: Verifique sua conexão e tente novamente';
+            } else if (err.code === 'NETWORK_ERROR') {
+                errorMessage = 'Erro de rede: Verifique sua conexão';
+            }
+            
+            setError(errorMessage);
         } finally {
             setLoading(false);
         }

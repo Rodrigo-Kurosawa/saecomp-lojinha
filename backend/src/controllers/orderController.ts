@@ -70,8 +70,10 @@ export const getOrderById = async (req: Request, res: Response) => {
 // Create new order
 export const createOrder = async (req: Request, res: Response) => {
   try {
+    console.log('📝 Creating order - Start');
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
+      console.log('❌ Validation errors:', errors.array());
       return res.status(400).json({
         success: false,
         message: 'Dados inválidos',
@@ -80,23 +82,33 @@ export const createOrder = async (req: Request, res: Response) => {
     }
 
     const { items, customerName, customerCourse, notes } = req.body;
+    console.log('📝 Order data received:', { items, customerName, customerCourse });
 
     // Validate items and check stock
+    console.log('🔍 Finding products...');
     const products = await Product.find();
+    console.log('✅ Products found:', products.length);
+    
     const validatedItems = [];
     let totalAmount = 0;
 
+    console.log('🔍 Validating items...');
     for (const item of items) {
+      console.log('🔍 Processing item:', item);
       const product = products.find((p: IProduct) => p._id === item.productId);
       
       if (!product) {
+        console.log('❌ Product not found:', item.productId);
         return res.status(404).json({
           success: false,
           message: `Produto não encontrado: ${item.productId}`
         });
       }
 
+      console.log('✅ Product found:', product.name, 'Stock:', product.stock);
+
       if (product.stock < item.quantity) {
+        console.log('❌ Insufficient stock for:', product.name);
         return res.status(400).json({
           success: false,
           message: `Estoque insuficiente para ${product.name}. Disponível: ${product.stock}`
@@ -114,6 +126,8 @@ export const createOrder = async (req: Request, res: Response) => {
       totalAmount += subtotal;
     }
 
+    console.log('✅ Items validated successfully');
+
     // Create order
     const orderData = {
       customerName,
@@ -125,20 +139,29 @@ export const createOrder = async (req: Request, res: Response) => {
       notes
     };
 
+    console.log('💾 Creating order with data:', orderData);
+
+    console.log('💾 Calling Order.create...');
     const order = await Order.create(orderData);
+    console.log('✅ Order created:', order._id);
 
     // Update product stock
+    console.log('📦 Updating product stocks...');
     for (const item of validatedItems) {
+      console.log('📦 Updating stock for:', item.productId, 'quantity:', item.quantity);
       await Product.updateStock(item.productId, item.quantity);
+      console.log('✅ Stock updated for:', item.productId);
     }
+    console.log('✅ All stocks updated');
 
+    console.log('📝 Order creation completed successfully');
     res.status(201).json({
       success: true,
       data: order,
       message: 'Pedido criado com sucesso'
     });
   } catch (error) {
-    console.error('Error creating order:', error);
+    console.error('❌ Error creating order:', error);
     res.status(500).json({
       success: false,
       message: 'Erro ao criar pedido'

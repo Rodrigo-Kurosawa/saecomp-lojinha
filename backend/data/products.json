@@ -6,10 +6,10 @@
     "price": 3.5,
     "imageUrl": "/images/brigadeiro.svg",
     "category": "doces",
-    "stock": 17,
+    "stock": 6,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T16:13:54.229Z"
+    "updatedAt": "2025-06-07T22:52:59.783Z"
   },
   {
     "_id": "2",
@@ -18,10 +18,10 @@
     "price": 4,
     "imageUrl": "/images/coxinha.svg",
     "category": "salgados",
-    "stock": 1,
+    "stock": 0,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T21:42:26.612Z"
+    "updatedAt": "2025-06-07T22:12:40.866Z"
   },
   {
     "_id": "3",
@@ -30,10 +30,10 @@
     "price": 3,
     "imageUrl": "/images/refrigerante.svg",
     "category": "bebidas",
-    "stock": 92,
+    "stock": 86,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T15:09:40.865Z"
+    "updatedAt": "2025-06-07T22:29:03.469Z"
   },
   {
     "_id": "4",
