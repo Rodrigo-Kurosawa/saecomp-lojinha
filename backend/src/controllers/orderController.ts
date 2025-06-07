@@ -79,7 +79,7 @@ export const createOrder = async (req: Request, res: Response) => {
       });
     }
 
-    const { items, customerName, customerEmail, customerPhone, customerAddress, notes } = req.body;
+    const { items, customerName, customerCourse, notes } = req.body;
 
     // Validate items and check stock
     const products = await Product.find();
@@ -117,9 +117,7 @@ export const createOrder = async (req: Request, res: Response) => {
     // Create order
     const orderData = {
       customerName,
-      customerEmail,
-      customerPhone,
-      customerAddress,
+      customerCourse,
       items: validatedItems,
       totalAmount,
       status: 'pending' as const,

@@ -63,10 +63,8 @@ export const fetchProducts = async (filters?: ProductFilters): Promise<Product[]
 
 // Pedidos
 export const createOrder = async (orderData: {
-  customerName: string;
-  customerEmail?: string;
-  customerPhone?: string;
-  customerAddress?: string;
+  customerName?: string;
+  customerCourse?: string;
   items: {
     productId: string;
     quantity: number;

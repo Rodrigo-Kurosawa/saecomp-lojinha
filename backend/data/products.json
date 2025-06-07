@@ -6,10 +6,10 @@
     "price": 3.5,
     "imageUrl": "/images/brigadeiro.svg",
     "category": "doces",
-    "stock": 28,
+    "stock": 17,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T15:23:56.948Z"
+    "updatedAt": "2025-06-07T16:13:54.229Z"
   },
   {
     "_id": "2",
@@ -18,10 +18,10 @@
     "price": 4,
     "imageUrl": "/images/coxinha.svg",
     "category": "salgados",
-    "stock": 15,
+    "stock": 1,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T15:27:42.069Z"
+    "updatedAt": "2025-06-07T21:42:26.612Z"
   },
   {
     "_id": "3",

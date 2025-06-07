@@ -34,10 +34,8 @@ export interface OrderItem {
 
 export interface Order {
   _id: string;
-  customerName: string;
-  customerEmail?: string;
-  customerPhone?: string;
-  customerAddress?: string;
+  customerName?: string;
+  customerCourse?: string;
   items: OrderItem[];
   totalAmount: number;
   status: 'pending' | 'confirmed' | 'preparing' | 'ready' | 'delivered' | 'cancelled';
@@ -64,8 +62,7 @@ export interface Payment {
 export interface PixPaymentRequest {
   orderId: string;
   amount: number;
-  customerName: string;
-  customerEmail: string;
+  customerName?: string;
 }
 
 export interface PixPaymentResponse {

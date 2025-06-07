@@ -1,8 +1,7 @@
 [
   {
-    "customerName": "Teste Usuario",
-    "customerEmail": "teste@example.com",
-    "customerPhone": "11999999999",
+    "customerName": "João Silva",
+    "customerCourse": "Ciência da Computação",
     "items": [
       {
         "productId": "1",
@@ -20,29 +19,24 @@
     "updatedAt": "2025-06-04T16:37:41.110Z"
   },
   {
-    "customerName": "Teste Usuario",
-    "customerEmail": "teste@example.com",
-    "customerPhone": "11999999999",
+    "customerName": "Maria Santos",
     "items": [
       {
-        "productId": "1",
-        "name": "Brigadeiro Gourmet",
-        "price": 3.5,
-        "quantity": 2,
-        "subtotal": 7
+        "productId": "2",
+        "name": "Coxinha",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
       }
     ],
-    "totalAmount": 7,
-    "status": "pending",
-    "paymentStatus": "pending",
+    "totalAmount": 4,
+    "status": "confirmed",
+    "paymentStatus": "completed",
     "_id": "1749055080889",
     "createdAt": "2025-06-04T16:38:00.889Z",
     "updatedAt": "2025-06-04T16:38:00.889Z"
   },
   {
-    "customerName": "Teste Usuario",
-    "customerEmail": "teste@example.com",
-    "customerPhone": "11999999999",
     "items": [
       {
         "productId": "1",
@@ -55,14 +49,11 @@
     "totalAmount": 7,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749055111177",
-    "createdAt": "2025-06-04T16:38:31.178Z",
-    "updatedAt": "2025-06-04T16:38:31.178Z"
+    "_id": "1749312628081",
+    "createdAt": "2025-06-07T16:10:28.081Z",
+    "updatedAt": "2025-06-07T16:10:28.081Z"
   },
   {
-    "customerName": "Teste Usuario",
-    "customerEmail": "teste@example.com",
-    "customerPhone": "11999999999",
     "items": [
       {
         "productId": "1",
@@ -75,34 +66,13 @@
     "totalAmount": 7,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749055301410",
-    "createdAt": "2025-06-04T16:41:41.410Z",
-    "updatedAt": "2025-06-04T16:41:41.410Z"
-  },
-  {
-    "customerName": "Teste Usuario",
-    "customerEmail": "teste@example.com",
-    "customerPhone": "11999999999",
-    "items": [
-      {
-        "productId": "1",
-        "name": "Brigadeiro Gourmet",
-        "price": 3.5,
-        "quantity": 1,
-        "subtotal": 3.5
-      }
-    ],
-    "totalAmount": 3.5,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749055332895",
-    "createdAt": "2025-06-04T16:42:12.895Z",
-    "updatedAt": "2025-06-04T16:42:12.895Z"
+    "_id": "1749312643901",
+    "createdAt": "2025-06-07T16:10:43.901Z",
+    "updatedAt": "2025-06-07T16:10:43.901Z"
   },
   {
     "customerName": "Test User",
-    "customerEmail": "test@example.com",
-    "customerPhone": "11999999999",
+    "customerCourse": "Engenharia de Software",
     "items": [
       {
         "productId": "1",
@@ -115,88 +85,30 @@
     "totalAmount": 3.5,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749055368080",
-    "createdAt": "2025-06-04T16:42:48.081Z",
-    "updatedAt": "2025-06-04T16:43:27.749Z",
-    "paymentId": "pix_1749055368080_1749055407749"
+    "_id": "1749312669479",
+    "createdAt": "2025-06-07T16:11:09.479Z",
+    "updatedAt": "2025-06-07T16:11:09.479Z"
   },
   {
-    "customerName": "Maria Silva",
-    "customerEmail": "maria@example.com",
-    "customerPhone": "11987654321",
     "items": [
       {
         "productId": "1",
         "name": "Brigadeiro Gourmet",
         "price": 3.5,
-        "quantity": 3,
-        "subtotal": 10.5
-      },
-      {
-        "productId": "3",
-        "name": "Refrigerante Lata",
-        "price": 3,
-        "quantity": 2,
-        "subtotal": 6
+        "quantity": 1,
+        "subtotal": 3.5
       }
     ],
-    "totalAmount": 16.5,
+    "totalAmount": 3.5,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749055832197",
-    "createdAt": "2025-06-04T16:50:32.197Z",
-    "updatedAt": "2025-06-04T16:50:32.352Z",
-    "paymentId": "pix_1749055832197_1749055832352"
+    "_id": "1749312690426",
+    "createdAt": "2025-06-07T16:11:30.426Z",
+    "updatedAt": "2025-06-07T16:11:30.426Z"
   },
   {
-    "customerName": "aasdf",
-    "customerEmail": "a@gmail.com",
-    "customerPhone": "91992150828",
-    "customerAddress": "asdf",
-    "items": [
-      {
-        "productId": "1",
-        "name": "Brigadeiro Gourmet",
-        "price": 3.5,
-        "quantity": 3,
-        "subtotal": 10.5
-      }
-    ],
-    "totalAmount": 10.5,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749133460612",
-    "createdAt": "2025-06-05T14:24:20.612Z",
-    "updatedAt": "2025-06-05T14:24:20.722Z",
-    "paymentId": "pix_1749133460612_1749133460722"
-  },
-  {
-    "customerName": "rodrigoasdf",
-    "customerEmail": "rodrigo@gmail.com",
-    "customerPhone": "1423241234",
-    "customerAddress": "asdfa[",
-    "items": [
-      {
-        "productId": "2",
-        "name": "Coxinha de Frango",
-        "price": 4,
-        "quantity": 4,
-        "subtotal": 16
-      }
-    ],
-    "totalAmount": 16,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749272480584",
-    "createdAt": "2025-06-07T05:01:20.584Z",
-    "updatedAt": "2025-06-07T05:01:20.727Z",
-    "paymentId": "pix_1749272480584_1749272480727"
-  },
-  {
-    "customerName": "rodrigo",
-    "customerEmail": "rodrigo@gmail.com",
-    "customerPhone": "91992150828",
-    "customerAddress": "asdf",
+    "customerName": "João Test",
+    "customerCourse": "Sistemas de Informação",
     "items": [
       {
         "productId": "2",
@@ -209,44 +121,12 @@
     "totalAmount": 8,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749272524596",
-    "createdAt": "2025-06-07T05:02:04.596Z",
-    "updatedAt": "2025-06-07T05:02:04.684Z",
-    "paymentId": "pix_1749272524596_1749272524683"
+    "_id": "1749312698214",
+    "createdAt": "2025-06-07T16:11:38.214Z",
+    "updatedAt": "2025-06-07T16:12:16.722Z",
+    "paymentId": "pix_1749312698214_1749312736721"
   },
   {
-    "customerName": "RODRIO",
-    "customerEmail": "asr@gmail.com",
-    "customerPhone": "91992150828",
-    "customerAddress": "32134",
-    "items": [
-      {
-        "productId": "2",
-        "name": "Coxinha de Frango",
-        "price": 4,
-        "quantity": 6,
-        "subtotal": 24
-      },
-      {
-        "productId": "3",
-        "name": "Refrigerante Lata",
-        "price": 3,
-        "quantity": 6,
-        "subtotal": 18
-      }
-    ],
-    "totalAmount": 42,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749308980862",
-    "createdAt": "2025-06-07T15:09:40.862Z",
-    "updatedAt": "2025-06-07T15:09:40.941Z",
-    "paymentId": "pix_1749308980862_1749308980940"
-  },
-  {
-    "customerName": "Test Customer",
-    "customerEmail": "test@example.com",
-    "customerPhone": "123456789",
     "items": [
       {
         "productId": "1",
@@ -259,102 +139,12 @@
     "totalAmount": 3.5,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749309693139",
-    "createdAt": "2025-06-07T15:21:33.139Z",
-    "updatedAt": "2025-06-07T15:21:33.140Z"
+    "_id": "1749312818022",
+    "createdAt": "2025-06-07T16:13:38.022Z",
+    "updatedAt": "2025-06-07T16:13:38.022Z"
   },
   {
-    "customerName": "Test",
-    "items": [
-      {
-        "productId": "1",
-        "name": "Brigadeiro Gourmet",
-        "price": 3.5,
-        "quantity": 1,
-        "subtotal": 3.5
-      }
-    ],
-    "totalAmount": 3.5,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749309705931",
-    "createdAt": "2025-06-07T15:21:45.931Z",
-    "updatedAt": "2025-06-07T15:21:45.931Z"
-  },
-  {
-    "customerName": "Test User",
-    "customerEmail": "test@example.com",
-    "customerPhone": "11999999999",
-    "items": [
-      {
-        "productId": "1",
-        "name": "Brigadeiro Gourmet",
-        "price": 3.5,
-        "quantity": 2,
-        "subtotal": 7
-      }
-    ],
-    "totalAmount": 7,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749309821510",
-    "createdAt": "2025-06-07T15:23:41.510Z",
-    "updatedAt": "2025-06-07T15:23:41.510Z"
-  },
-  {
-    "customerName": "Test User",
-    "customerEmail": "test@example.com",
-    "customerPhone": "11999999999",
-    "items": [
-      {
-        "productId": "1",
-        "name": "Brigadeiro Gourmet",
-        "price": 3.5,
-        "quantity": 2,
-        "subtotal": 7
-      }
-    ],
-    "totalAmount": 7,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749309836947",
-    "createdAt": "2025-06-07T15:23:56.947Z",
-    "updatedAt": "2025-06-07T15:23:56.947Z"
-  },
-  {
-    "customerName": "asdfrodrigo",
-    "customerEmail": "rod@gmail.com",
-    "customerPhone": "91992150828",
-    "customerAddress": "qewr3",
-    "items": [
-      {
-        "productId": "2",
-        "name": "Coxinha de Frango",
-        "price": 4,
-        "quantity": 2,
-        "subtotal": 8
-      },
-      {
-        "productId": "5",
-        "name": "Beijinho",
-        "price": 3,
-        "quantity": 2,
-        "subtotal": 6
-      }
-    ],
-    "totalAmount": 14,
-    "status": "pending",
-    "paymentStatus": "pending",
-    "_id": "1749310000855",
-    "createdAt": "2025-06-07T15:26:40.855Z",
-    "updatedAt": "2025-06-07T15:26:40.960Z",
-    "paymentId": "pix_1749310000855_1749310000959"
-  },
-  {
-    "customerName": "er",
-    "customerEmail": "q3@a.com",
-    "customerPhone": "91992150828",
-    "customerAddress": "234",
+    "customerName": "Ana Silva",
     "items": [
       {
         "productId": "2",
@@ -367,9 +157,184 @@
     "totalAmount": 4,
     "status": "pending",
     "paymentStatus": "pending",
-    "_id": "1749310062068",
-    "createdAt": "2025-06-07T15:27:42.068Z",
-    "updatedAt": "2025-06-07T15:27:42.111Z",
-    "paymentId": "pix_1749310062068_1749310062111"
+    "_id": "1749312818205",
+    "createdAt": "2025-06-07T16:13:38.205Z",
+    "updatedAt": "2025-06-07T16:13:38.205Z"
+  },
+  {
+    "customerName": "Carlos Santos",
+    "customerCourse": "Engenharia da Computação",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 2,
+        "subtotal": 7
+      }
+    ],
+    "totalAmount": 7,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749312818329",
+    "createdAt": "2025-06-07T16:13:38.329Z",
+    "updatedAt": "2025-06-07T16:13:38.329Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749312826236",
+    "createdAt": "2025-06-07T16:13:46.236Z",
+    "updatedAt": "2025-06-07T16:13:46.236Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749312834228",
+    "createdAt": "2025-06-07T16:13:54.228Z",
+    "updatedAt": "2025-06-07T16:13:54.228Z"
+  },
+  {
+    "customerName": "rodrigo",
+    "customerCourse": "engenharia de computação",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 2,
+        "subtotal": 8
+      }
+    ],
+    "totalAmount": 8,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332479459",
+    "createdAt": "2025-06-07T21:41:19.459Z",
+    "updatedAt": "2025-06-07T21:41:19.459Z"
+  },
+  {
+    "customerName": "rodrigo",
+    "customerCourse": "engenharia de computação",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 2,
+        "subtotal": 8
+      }
+    ],
+    "totalAmount": 8,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332485199",
+    "createdAt": "2025-06-07T21:41:25.199Z",
+    "updatedAt": "2025-06-07T21:41:25.199Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332500027",
+    "createdAt": "2025-06-07T21:41:40.027Z",
+    "updatedAt": "2025-06-07T21:41:40.027Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332504371",
+    "createdAt": "2025-06-07T21:41:44.371Z",
+    "updatedAt": "2025-06-07T21:41:44.371Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332510338",
+    "createdAt": "2025-06-07T21:41:50.338Z",
+    "updatedAt": "2025-06-07T21:41:50.338Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 2,
+        "subtotal": 8
+      }
+    ],
+    "totalAmount": 8,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332541639",
+    "createdAt": "2025-06-07T21:42:21.639Z",
+    "updatedAt": "2025-06-07T21:42:21.639Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 2,
+        "subtotal": 8
+      }
+    ],
+    "totalAmount": 8,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749332546611",
+    "createdAt": "2025-06-07T21:42:26.611Z",
+    "updatedAt": "2025-06-07T21:42:26.611Z"
   }
 ]

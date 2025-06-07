@@ -9,10 +9,8 @@ export interface IOrderItem {
 
 export interface IOrder {
   _id: string;
-  customerName: string;
-  customerEmail?: string;
-  customerPhone?: string;
-  customerAddress?: string;
+  customerName?: string;
+  customerCourse?: string;
   items: IOrderItem[];
   totalAmount: number;
   status: 'pending' | 'confirmed' | 'preparing' | 'ready' | 'delivered' | 'cancelled';
@@ -46,7 +44,7 @@ export class Order {
     if (filter.customerName) {
       const searchTerm = filter.customerName.toLowerCase();
       filtered = filtered.filter((o: IOrder) => 
-        o.customerName.toLowerCase().includes(searchTerm)
+        o.customerName?.toLowerCase().includes(searchTerm)
       );
     }
 

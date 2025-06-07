@@ -15,20 +15,16 @@ export const createOrderValidation = [
     .withMessage('Quantidade deve ser um número inteiro maior que 0'),
   
   body('customerName')
+    .optional()
     .trim()
     .isLength({ min: 2, max: 100 })
     .withMessage('Nome do cliente deve ter entre 2 e 100 caracteres'),
   
-  body('customerEmail')
+  body('customerCourse')
     .optional()
-    .isEmail()
-    .normalizeEmail()
-    .withMessage('Email deve ser válido'),
-  
-  body('customerPhone')
-    .optional()
-    .isString()
-    .withMessage('Telefone deve ser uma string válida'),
+    .trim()
+    .isLength({ min: 2, max: 100 })
+    .withMessage('Curso deve ter entre 2 e 100 caracteres'),
   
   body('paymentMethod')
     .optional()

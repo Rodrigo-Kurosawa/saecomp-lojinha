@@ -8,8 +8,7 @@ import { ApiResponse } from '../types/api';
 interface PixPaymentRequest {
   orderId: string;
   amount: number;
-  customerName: string;
-  customerEmail: string;
+  customerName?: string;
 }
 
 interface PixPaymentResponse {

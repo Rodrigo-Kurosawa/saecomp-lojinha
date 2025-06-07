@@ -14,9 +14,7 @@ const Checkout: React.FC = () => {
     // Form states
     const [customerData, setCustomerData] = useState({
         name: '',
-        email: '',
-        phone: '',
-        address: ''
+        course: ''
     });
     
     const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>('pix');
@@ -41,22 +39,7 @@ const Checkout: React.FC = () => {
     };
 
     const validateForm = (): boolean => {
-        if (!customerData.name.trim()) {
-            setError('Nome é obrigatório');
-            return false;
-        }
-        if (!customerData.email.trim()) {
-            setError('Email é obrigatório');
-            return false;
-        }
-        if (!customerData.phone.trim()) {
-            setError('Telefone é obrigatório');
-            return false;
-        }
-        if (!/\S+@\S+\.\S+/.test(customerData.email)) {
-            setError('Email inválido');
-            return false;
-        }
+        // No validation needed since all fields are optional
         return true;
     };
 
@@ -72,10 +55,8 @@ const Checkout: React.FC = () => {
         try {
             // Create order
             const orderData = {
-                customerName: customerData.name,
-                customerEmail: customerData.email,
-                customerPhone: customerData.phone,
-                customerAddress: customerData.address,
+                customerName: customerData.name.trim() || undefined,
+                customerCourse: customerData.course.trim() || undefined,
                 items: cartItems.map(item => ({
                     productId: item._id,
                     quantity: item.quantity,
@@ -98,8 +79,7 @@ const Checkout: React.FC = () => {
                 const pixResponse = await paymentService.generatePix({
                     orderId: newOrderId,
                     amount: totalAmount,
-                    customerName: customerData.name,
-                    customerEmail: customerData.email
+                    customerName: customerData.name.trim() || undefined
                 });
                 if (pixResponse.data?.qrCode) {
                     setQrCodeData(pixResponse.data.qrCode);
@@ -166,49 +146,26 @@ const Checkout: React.FC = () => {
                         
                         <form onSubmit={(e) => { e.preventDefault(); handleSubmitOrder(); }}>
                             <div className="form-group">
-                                <label htmlFor="name">Nome *</label>
+                                <label htmlFor="name">Nome (opcional)</label>
                                 <input
                                     type="text"
                                     id="name"
                                     name="name"
                                     value={customerData.name}
                                     onChange={handleInputChange}
-                                    required
+                                    placeholder="Digite seu nome"
                                 />
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="email">Email *</label>
+                                <label htmlFor="course">Curso que faz (opcional)</label>
                                 <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    value={customerData.email}
+                                    type="text"
+                                    id="course"
+                                    name="course"
+                                    value={customerData.course}
                                     onChange={handleInputChange}
-                                    required
-                                />
-                            </div>
-
-                            <div className="form-group">
-                                <label htmlFor="phone">Telefone *</label>
-                                <input
-                                    type="tel"
-                                    id="phone"
-                                    name="phone"
-                                    value={customerData.phone}
-                                    onChange={handleInputChange}
-                                    required
-                                />
-                            </div>
-
-                            <div className="form-group">
-                                <label htmlFor="address">Endereço (opcional)</label>
-                                <textarea
-                                    id="address"
-                                    name="address"
-                                    value={customerData.address}
-                                    onChange={handleInputChange}
-                                    rows={3}
+                                    placeholder="Ex: Ciência da Computação"
                                 />
                             </div>
 
