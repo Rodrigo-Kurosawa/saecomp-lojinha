@@ -1,0 +1,18 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-beijinho" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB6C1" />
+      <stop offset="100%" stop-color="#FF69B4" />
+    </radialGradient>
+    <radialGradient id="circle-beijinho" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFC0CB" />
+      <stop offset="100%" stop-color="#FFB6C1" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg-beijinho)"/>
+  <circle cx="150" cy="120" r="60" fill="url(#circle-beijinho)" stroke="#FF69B4" stroke-width="3"/>
+  <text x="150" y="135" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="white">🧁</text>
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white" font-weight="bold">Beijinho</text>
+  <text x="150" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#8B4513" font-weight="bold">Tradicional</text>
+  <text x="150" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">R$ 3,00</text>
+</svg>

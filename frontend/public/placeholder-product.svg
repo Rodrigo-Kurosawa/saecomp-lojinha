@@ -1,0 +1,7 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f0f0f0"/>
+  <rect x="50" y="50" width="200" height="200" fill="#ddd" stroke="#ccc" stroke-width="2"/>
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#999">Imagem não</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#999">disponível</text>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#ccc">📦</text>
+</svg>

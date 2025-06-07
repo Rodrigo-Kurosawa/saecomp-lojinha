@@ -1,0 +1,18 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-refri" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF4500" />
+      <stop offset="100%" stop-color="#DC143C" />
+    </radialGradient>
+    <radialGradient id="circle-refri" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6347" />
+      <stop offset="100%" stop-color="#FF4500" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg-refri)"/>
+  <circle cx="150" cy="120" r="60" fill="url(#circle-refri)" stroke="#DC143C" stroke-width="3"/>
+  <text x="150" y="135" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="white">🥤</text>
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white" font-weight="bold">Refrigerante</text>
+  <text x="150" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#FFD700" font-weight="bold">Lata 350ml</text>
+  <text x="150" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#FFF">R$ 3,00</text>
+</svg>

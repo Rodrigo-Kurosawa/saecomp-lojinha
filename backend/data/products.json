@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "1",
+    "name": "Brigadeiro Gourmet",
+    "description": "Delicioso brigadeiro feito com chocolate belga",
+    "price": 3.5,
+    "imageUrl": "/images/brigadeiro.svg",
+    "category": "doces",
+    "stock": 34,
+    "isActive": true,
+    "createdAt": "2025-06-04T16:27:02.103Z",
+    "updatedAt": "2025-06-05T14:24:20.614Z"
+  },
+  {
+    "_id": "2",
+    "name": "Coxinha de Frango",
+    "description": "Coxinha tradicional com frango desfiado",
+    "price": 4,
+    "imageUrl": "/images/coxinha.svg",
+    "category": "salgados",
+    "stock": 30,
+    "isActive": true,
+    "createdAt": "2025-06-04T16:27:02.103Z",
+    "updatedAt": "2025-06-04T16:27:02.103Z"
+  },
+  {
+    "_id": "3",
+    "name": "Refrigerante Lata",
+    "description": "Refrigerante gelado 350ml",
+    "price": 3,
+    "imageUrl": "/images/refrigerante.svg",
+    "category": "bebidas",
+    "stock": 98,
+    "isActive": true,
+    "createdAt": "2025-06-04T16:27:02.103Z",
+    "updatedAt": "2025-06-04T16:50:32.199Z"
+  },
+  {
+    "_id": "4",
+    "name": "Pastel de Queijo",
+    "description": "Pastel crocante recheado com queijo",
+    "price": 5,
+    "imageUrl": "/images/pastel.svg",
+    "category": "salgados",
+    "stock": 25,
+    "isActive": true,
+    "createdAt": "2025-06-04T16:27:02.103Z",
+    "updatedAt": "2025-06-04T16:27:02.103Z"
+  },
+  {
+    "_id": "5",
+    "name": "Beijinho",
+    "description": "Doce tradicional de coco",
+    "price": 3,
+    "imageUrl": "/images/beijinho.svg",
+    "category": "doces",
+    "stock": 40,
+    "isActive": true,
+    "createdAt": "2025-06-04T16:27:02.103Z",
+    "updatedAt": "2025-06-04T16:27:02.103Z"
+  }
+]
