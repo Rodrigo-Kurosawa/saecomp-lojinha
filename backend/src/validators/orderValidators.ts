@@ -20,22 +20,26 @@ export const createOrderValidation = [
     .withMessage('Nome do cliente deve ter entre 2 e 100 caracteres'),
   
   body('customerEmail')
+    .optional()
     .isEmail()
     .normalizeEmail()
     .withMessage('Email deve ser válido'),
   
   body('customerPhone')
-    .isMobilePhone('pt-BR')
-    .withMessage('Telefone deve ser válido'),
+    .optional()
+    .isString()
+    .withMessage('Telefone deve ser uma string válida'),
   
   body('paymentMethod')
-    .isIn(['dinheiro', 'cartao', 'pix'])
-    .withMessage('Método de pagamento deve ser dinheiro, cartao ou pix')
+    .optional()
+    .isIn(['money', 'card', 'pix'])
+    .withMessage('Método de pagamento deve ser money, card ou pix')
 ];
 
 export const updateOrderStatusValidation = [
   param('id')
-    .isMongoId()
+    .isString()
+    .notEmpty()
     .withMessage('ID do pedido deve ser válido'),
   
   body('status')
@@ -45,7 +49,8 @@ export const updateOrderStatusValidation = [
 
 export const getOrderByIdValidation = [
   param('id')
-    .isMongoId()
+    .isString()
+    .notEmpty()
     .withMessage('ID do pedido deve ser válido')
 ];
 

@@ -213,5 +213,163 @@
     "createdAt": "2025-06-07T05:02:04.596Z",
     "updatedAt": "2025-06-07T05:02:04.684Z",
     "paymentId": "pix_1749272524596_1749272524683"
+  },
+  {
+    "customerName": "RODRIO",
+    "customerEmail": "asr@gmail.com",
+    "customerPhone": "91992150828",
+    "customerAddress": "32134",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 6,
+        "subtotal": 24
+      },
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 6,
+        "subtotal": 18
+      }
+    ],
+    "totalAmount": 42,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749308980862",
+    "createdAt": "2025-06-07T15:09:40.862Z",
+    "updatedAt": "2025-06-07T15:09:40.941Z",
+    "paymentId": "pix_1749308980862_1749308980940"
+  },
+  {
+    "customerName": "Test Customer",
+    "customerEmail": "test@example.com",
+    "customerPhone": "123456789",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749309693139",
+    "createdAt": "2025-06-07T15:21:33.139Z",
+    "updatedAt": "2025-06-07T15:21:33.140Z"
+  },
+  {
+    "customerName": "Test",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749309705931",
+    "createdAt": "2025-06-07T15:21:45.931Z",
+    "updatedAt": "2025-06-07T15:21:45.931Z"
+  },
+  {
+    "customerName": "Test User",
+    "customerEmail": "test@example.com",
+    "customerPhone": "11999999999",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 2,
+        "subtotal": 7
+      }
+    ],
+    "totalAmount": 7,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749309821510",
+    "createdAt": "2025-06-07T15:23:41.510Z",
+    "updatedAt": "2025-06-07T15:23:41.510Z"
+  },
+  {
+    "customerName": "Test User",
+    "customerEmail": "test@example.com",
+    "customerPhone": "11999999999",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 2,
+        "subtotal": 7
+      }
+    ],
+    "totalAmount": 7,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749309836947",
+    "createdAt": "2025-06-07T15:23:56.947Z",
+    "updatedAt": "2025-06-07T15:23:56.947Z"
+  },
+  {
+    "customerName": "asdfrodrigo",
+    "customerEmail": "rod@gmail.com",
+    "customerPhone": "91992150828",
+    "customerAddress": "qewr3",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 2,
+        "subtotal": 8
+      },
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 2,
+        "subtotal": 6
+      }
+    ],
+    "totalAmount": 14,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749310000855",
+    "createdAt": "2025-06-07T15:26:40.855Z",
+    "updatedAt": "2025-06-07T15:26:40.960Z",
+    "paymentId": "pix_1749310000855_1749310000959"
+  },
+  {
+    "customerName": "er",
+    "customerEmail": "q3@a.com",
+    "customerPhone": "91992150828",
+    "customerAddress": "234",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749310062068",
+    "createdAt": "2025-06-07T15:27:42.068Z",
+    "updatedAt": "2025-06-07T15:27:42.111Z",
+    "paymentId": "pix_1749310062068_1749310062111"
   }
 ]

@@ -6,10 +6,10 @@
     "price": 3.5,
     "imageUrl": "/images/brigadeiro.svg",
     "category": "doces",
-    "stock": 34,
+    "stock": 28,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-05T14:24:20.614Z"
+    "updatedAt": "2025-06-07T15:23:56.948Z"
   },
   {
     "_id": "2",
@@ -18,10 +18,10 @@
     "price": 4,
     "imageUrl": "/images/coxinha.svg",
     "category": "salgados",
-    "stock": 24,
+    "stock": 15,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T05:02:04.597Z"
+    "updatedAt": "2025-06-07T15:27:42.069Z"
   },
   {
     "_id": "3",
@@ -30,10 +30,10 @@
     "price": 3,
     "imageUrl": "/images/refrigerante.svg",
     "category": "bebidas",
-    "stock": 98,
+    "stock": 92,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-04T16:50:32.199Z"
+    "updatedAt": "2025-06-07T15:09:40.865Z"
   },
   {
     "_id": "4",
@@ -54,9 +54,9 @@
     "price": 3,
     "imageUrl": "/images/beijinho.svg",
     "category": "doces",
-    "stock": 40,
+    "stock": 38,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-04T16:27:02.103Z"
+    "updatedAt": "2025-06-07T15:26:40.856Z"
   }
 ]

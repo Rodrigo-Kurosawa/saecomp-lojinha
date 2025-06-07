@@ -86,6 +86,7 @@ const Checkout: React.FC = () => {
             };
 
             const orderResponse = await orderService.create(orderData);
+            
             const newOrderId = orderResponse.data?._id;
             if (!newOrderId) {
                 throw new Error('Falha ao criar pedido');
@@ -108,7 +109,7 @@ const Checkout: React.FC = () => {
             } else {
                 // For other payment methods, redirect to success
                 clearCart();
-                navigate('/order-success', { state: { orderId: newOrderId } });
+                navigate(`/order-success/${newOrderId}`, { state: { orderId: newOrderId } });
             }
         } catch (err: any) {
             setError(err.message || 'Erro ao processar pedido');
@@ -119,7 +120,7 @@ const Checkout: React.FC = () => {
 
     const handlePaymentComplete = () => {
         clearCart();
-        navigate('/order-success', { state: { orderId } });
+        navigate(`/order-success/${orderId}`, { state: { orderId } });
     };
 
     if (cartItems.length === 0) {

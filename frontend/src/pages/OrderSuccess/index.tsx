@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Order } from '../../types';
 import { orderService } from '../../services/api';
 import './styles.css';
@@ -7,11 +7,13 @@ import './styles.css';
 const OrderSuccess: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const params = useParams<{ orderId: string }>();
   const [order, setOrder] = useState<Order | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const orderId = location.state?.orderId;
+  // Get orderId from URL params or location state
+  const orderId = params.orderId || location.state?.orderId;
 
   useEffect(() => {
     if (!orderId) {
