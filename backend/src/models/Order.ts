@@ -15,7 +15,7 @@ export interface IOrder {
   totalAmount: number;
   status: 'pending' | 'confirmed' | 'preparing' | 'ready' | 'delivered' | 'cancelled';
   paymentStatus: 'pending' | 'completed' | 'failed' | 'cancelled';
-  paymentMethod?: 'pix' | 'money' | 'card';
+  paymentMethod?: 'pix';
   paymentId?: string;
   qrCodeData?: string;
   notes?: string;

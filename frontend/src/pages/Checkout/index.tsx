@@ -17,7 +17,6 @@ const Checkout: React.FC = () => {
         course: ''
     });
     
-    const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>('pix');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [qrCodeData, setQrCodeData] = useState<string | null>(null);
@@ -62,7 +61,7 @@ const Checkout: React.FC = () => {
                     quantity: item.quantity,
                     price: item.price
                 })),
-                paymentMethod,
+                paymentMethod: 'pix' as PaymentMethod,
                 totalAmount
             };
 
@@ -74,22 +73,16 @@ const Checkout: React.FC = () => {
             }
             setOrderId(newOrderId);
 
-            // Generate payment QR code if PIX
-            if (paymentMethod === 'pix') {
-                const pixResponse = await paymentService.generatePix({
-                    orderId: newOrderId,
-                    amount: totalAmount,
-                    customerName: customerData.name.trim() || undefined
-                });
-                if (pixResponse.data?.qrCode) {
-                    setQrCodeData(pixResponse.data.qrCode);
-                } else {
-                    throw new Error('Falha ao gerar código PIX');
-                }
+            // Generate PIX payment QR code
+            const pixResponse = await paymentService.generatePix({
+                orderId: newOrderId,
+                amount: totalAmount,
+                customerName: customerData.name.trim() || undefined
+            });
+            if (pixResponse.data?.qrCode) {
+                setQrCodeData(pixResponse.data.qrCode);
             } else {
-                // For other payment methods, redirect to success
-                clearCart();
-                navigate(`/order-success/${newOrderId}`, { state: { orderId: newOrderId } });
+                throw new Error('Falha ao gerar código PIX');
             }
         } catch (err: any) {
             console.error('Checkout error:', err);
@@ -182,30 +175,9 @@ const Checkout: React.FC = () => {
                                 />
                             </div>
 
-                            <div className="form-group">
-                                <label>Método de Pagamento</label>
-                                <div className="payment-methods">
-                                    <label className="payment-option">
-                                        <input
-                                            type="radio"
-                                            name="paymentMethod"
-                                            value="pix"
-                                            checked={paymentMethod === 'pix'}
-                                            onChange={(e) => setPaymentMethod(e.target.value as PaymentMethod)}
-                                        />
-                                        PIX
-                                    </label>
-                                    <label className="payment-option">
-                                        <input
-                                            type="radio"
-                                            name="paymentMethod"
-                                            value="money"
-                                            checked={paymentMethod === 'money'}
-                                            onChange={(e) => setPaymentMethod(e.target.value as PaymentMethod)}
-                                        />
-                                        Dinheiro
-                                    </label>
-                                </div>
+                            <div className="payment-info">
+                                <p><strong>💳 Pagamento via PIX</strong></p>
+                                <p>Após confirmar o pedido, você receberá um QR Code para pagamento via PIX.</p>
                             </div>
 
                             {error && (

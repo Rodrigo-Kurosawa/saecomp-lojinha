@@ -579,5 +579,71 @@
     "createdAt": "2025-06-07T22:52:59.782Z",
     "updatedAt": "2025-06-07T22:52:59.869Z",
     "paymentId": "pix_1749336779782_1749336779868"
+  },
+  {
+    "customerName": "Test Customer",
+    "customerCourse": "Engenharia de Software",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "notes": "Test order for PIX checkout",
+    "_id": "1749337222818",
+    "createdAt": "2025-06-07T23:00:22.818Z",
+    "updatedAt": "2025-06-07T23:00:22.862Z",
+    "paymentId": "pix_1749337222818_1749337222862"
+  },
+  {
+    "customerName": "Rodrigo",
+    "customerCourse": "Ambiental",
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      },
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 2,
+        "subtotal": 6
+      }
+    ],
+    "totalAmount": 9,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749337356398",
+    "createdAt": "2025-06-07T23:02:36.398Z",
+    "updatedAt": "2025-06-07T23:02:36.428Z",
+    "paymentId": "pix_1749337356398_1749337356428"
+  },
+  {
+    "items": [
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 3,
+        "subtotal": 9
+      }
+    ],
+    "totalAmount": 9,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749337435162",
+    "createdAt": "2025-06-07T23:03:55.162Z",
+    "updatedAt": "2025-06-07T23:03:55.189Z",
+    "paymentId": "pix_1749337435162_1749337435188"
   }
 ]

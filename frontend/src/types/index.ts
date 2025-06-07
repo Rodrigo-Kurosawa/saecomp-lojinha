@@ -49,7 +49,7 @@ export interface Order {
   updatedAt: string;
 }
 
-export type PaymentMethod = 'pix' | 'money' | 'card';
+export type PaymentMethod = 'pix';
 
 export interface Payment {
   orderId: string;

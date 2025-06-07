@@ -28,8 +28,8 @@ export const createOrderValidation = [
   
   body('paymentMethod')
     .optional()
-    .isIn(['money', 'card', 'pix'])
-    .withMessage('Método de pagamento deve ser money, card ou pix')
+    .equals('pix')
+    .withMessage('Método de pagamento deve ser pix')
 ];
 
 export const updateOrderStatusValidation = [

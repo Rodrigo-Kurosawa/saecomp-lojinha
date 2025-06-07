@@ -68,7 +68,8 @@ saecomp-lojinha
 
 - **Frontend**: React com TypeScript
 - **Backend**: Node.js com TypeScript
-- **Banco de Dados**: [Definir o banco de dados utilizado, ex: MongoDB, PostgreSQL, etc.]
+- **Banco de Dados**: JSON files (products.json, orders.json)
+- **Pagamento**: PIX exclusivo com geração de QR Code
 
 ## Como Rodar o Projeto
 
@@ -108,10 +109,11 @@ saecomp-lojinha
 
 ## Funcionalidades
 
-- Visualização de produtos com detalhes.
-- Adição de produtos ao carrinho.
-- Finalização de compra com geração de QR Code para pagamento.
-- Navegação entre diferentes categorias de produtos.
+- Visualização de produtos com detalhes
+- Adição de produtos ao carrinho
+- Finalização de compra com pagamento PIX exclusivo
+- Geração automática de QR Code PIX para pagamento
+- Navegação entre diferentes categorias de produtos (doces, salgados, bebidas)
 
 
 
@@ -121,4 +123,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ## Licença
 
-Este projeto está licenciado sob a [sua licença aqui].
+Este projeto está licenciado pela SAEComp(Secretaria Acadêmica de Engenharia de Computação).
