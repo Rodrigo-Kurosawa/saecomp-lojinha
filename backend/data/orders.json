@@ -169,5 +169,49 @@
     "createdAt": "2025-06-05T14:24:20.612Z",
     "updatedAt": "2025-06-05T14:24:20.722Z",
     "paymentId": "pix_1749133460612_1749133460722"
+  },
+  {
+    "customerName": "rodrigoasdf",
+    "customerEmail": "rodrigo@gmail.com",
+    "customerPhone": "1423241234",
+    "customerAddress": "asdfa[",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 4,
+        "subtotal": 16
+      }
+    ],
+    "totalAmount": 16,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749272480584",
+    "createdAt": "2025-06-07T05:01:20.584Z",
+    "updatedAt": "2025-06-07T05:01:20.727Z",
+    "paymentId": "pix_1749272480584_1749272480727"
+  },
+  {
+    "customerName": "rodrigo",
+    "customerEmail": "rodrigo@gmail.com",
+    "customerPhone": "91992150828",
+    "customerAddress": "asdf",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coxinha de Frango",
+        "price": 4,
+        "quantity": 2,
+        "subtotal": 8
+      }
+    ],
+    "totalAmount": 8,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749272524596",
+    "createdAt": "2025-06-07T05:02:04.596Z",
+    "updatedAt": "2025-06-07T05:02:04.684Z",
+    "paymentId": "pix_1749272524596_1749272524683"
   }
 ]

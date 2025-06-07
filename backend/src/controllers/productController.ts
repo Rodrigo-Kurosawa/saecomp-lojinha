@@ -22,6 +22,12 @@ export const getAllProducts = async (req: Request, res: Response, next: NextFunc
     let products = await Product.find(filter);
     const total = products.length;
 
+    // Add isAvailable field to each product
+    products = products.map((product: IProduct) => ({
+      ...product,
+      isAvailable: product.isActive && product.stock > 0
+    }));
+
     // Sort
     const sortField = sortBy as string;
     const sortOrder = order === 'desc' ? -1 : 1;
@@ -73,6 +79,12 @@ export const getProductsByCategory = async (req: Request, res: Response, next: N
     // Filter products with stock > 0
     products = products.filter((product: IProduct) => product.stock > 0);
 
+    // Add isAvailable field to each product
+    products = products.map((product: IProduct) => ({
+      ...product,
+      isAvailable: product.isActive && product.stock > 0
+    }));
+
     // Sort by createdAt descending
     products.sort((a: IProduct, b: IProduct) => 
       new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
@@ -102,9 +114,15 @@ export const getProductById = async (req: Request, res: Response, next: NextFunc
       return;
     }
 
+    // Add isAvailable field
+    const productWithAvailability = {
+      ...product,
+      isAvailable: product.isActive && product.stock > 0
+    };
+
     res.status(200).json({
       success: true,
-      data: product
+      data: productWithAvailability
     });
   } catch (error) {
     next(error);

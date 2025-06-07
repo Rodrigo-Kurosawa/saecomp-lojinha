@@ -18,10 +18,10 @@
     "price": 4,
     "imageUrl": "/images/coxinha.svg",
     "category": "salgados",
-    "stock": 30,
+    "stock": 24,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-04T16:27:02.103Z"
+    "updatedAt": "2025-06-07T05:02:04.597Z"
   },
   {
     "_id": "3",
