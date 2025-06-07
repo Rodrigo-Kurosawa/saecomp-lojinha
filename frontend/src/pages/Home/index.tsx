@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import ProductCard from '../../components/ProductCard';
 import CategoryTabs from '../../components/CategoryTabs';
 import { getProducts } from '../../services/api';
@@ -11,33 +11,40 @@ const Home = () => {
     const [error, setError] = useState<string | null>(null);
     const [selectedCategory, setSelectedCategory] = useState<'all' | 'doces' | 'salgados' | 'bebidas'>('all');
 
-    useEffect(() => {
-        loadProducts();
-    }, [selectedCategory]);
-
-    const loadProducts = async () => {
+    const loadProducts = useCallback(async (category: 'all' | 'doces' | 'salgados' | 'bebidas') => {
         try {
             setLoading(true);
             setError(null);
             
-            const filters: ProductFilters | undefined = selectedCategory !== 'all' 
-                ? { category: selectedCategory }
+            const filters: ProductFilters | undefined = category !== 'all' 
+                ? { category }
                 : undefined;
-                
+            
             const response = await getProducts(filters);
             
-            setProducts(response.data || []);
+            if (response.data) {
+                setProducts(response.data);
+            } else {
+                setProducts([]);
+            }
         } catch (err) {
             console.error('Error loading products:', err);
             setError('Erro ao carregar produtos. Tente novamente.');
+            setProducts([]);
         } finally {
             setLoading(false);
         }
-    };
+    }, []);
 
-    const handleCategoryChange = (category: 'all' | 'doces' | 'salgados' | 'bebidas') => {
-        setSelectedCategory(category);
-    };
+    useEffect(() => {
+        loadProducts(selectedCategory);
+    }, [selectedCategory, loadProducts]);
+
+    const handleCategoryChange = useCallback((category: 'all' | 'doces' | 'salgados' | 'bebidas') => {
+        if (category !== selectedCategory) {
+            setSelectedCategory(category);
+        }
+    }, [selectedCategory]);
 
     return (
         <div className="home">
@@ -61,7 +68,7 @@ const Home = () => {
             {error && (
                 <div className="error">
                     <p>{error}</p>
-                    <button onClick={loadProducts} className="retry-button">
+                    <button onClick={() => loadProducts(selectedCategory)} className="retry-button">
                         Tentar novamente
                     </button>
                 </div>

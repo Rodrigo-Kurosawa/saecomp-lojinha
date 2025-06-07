@@ -41,6 +41,9 @@ export const getProducts = async (filters?: ProductFilters): Promise<ApiResponse
     });
   }
   
+  // Add timestamp to prevent caching issues
+  params.append('_t', Date.now().toString());
+  
   const response = await api.get(`/products?${params.toString()}`);
   return response.data;
 };
