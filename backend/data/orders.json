@@ -699,5 +699,149 @@
     "createdAt": "2025-06-08T00:01:57.523Z",
     "updatedAt": "2025-06-08T00:01:57.572Z",
     "paymentId": "pix_1749340917523_1749340917572"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 2,
+        "subtotal": 6
+      }
+    ],
+    "totalAmount": 6,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749344599689",
+    "createdAt": "2025-06-08T01:03:19.689Z",
+    "updatedAt": "2025-06-08T01:03:19.790Z",
+    "paymentId": "pix_1749344599689_1749344599789"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749347143739",
+    "createdAt": "2025-06-08T01:45:43.739Z",
+    "updatedAt": "2025-06-08T01:45:43.780Z",
+    "paymentId": "pix_1749347143739_1749347143780"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749349563701",
+    "createdAt": "2025-06-08T02:26:03.701Z",
+    "updatedAt": "2025-06-08T02:26:48.956Z",
+    "paymentId": "pix_1749349563701_1749349608955"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 2,
+        "subtotal": 7
+      }
+    ],
+    "totalAmount": 7,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749349685407",
+    "createdAt": "2025-06-08T02:28:05.407Z",
+    "updatedAt": "2025-06-08T02:28:05.446Z",
+    "paymentId": "pix_1749349685407_1749349685446"
+  },
+  {
+    "items": [
+      {
+        "productId": "1",
+        "name": "Brigadeiro Gourmet",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749349869378",
+    "createdAt": "2025-06-08T02:31:09.378Z",
+    "updatedAt": "2025-06-08T02:31:09.415Z",
+    "paymentId": "pix_1749349869378_1749349869415"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749350355473",
+    "createdAt": "2025-06-08T02:39:15.473Z",
+    "updatedAt": "2025-06-08T02:39:15.506Z",
+    "paymentId": "pix_1749350355473_1749350355506"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749350365644",
+    "createdAt": "2025-06-08T02:39:25.644Z",
+    "updatedAt": "2025-06-08T02:39:25.677Z",
+    "paymentId": "pix_1749350365644_1749350365677"
+  },
+  {
+    "items": [
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 9,
+        "subtotal": 27
+      }
+    ],
+    "totalAmount": 27,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749350424625",
+    "createdAt": "2025-06-08T02:40:24.625Z",
+    "updatedAt": "2025-06-08T02:40:24.669Z",
+    "paymentId": "pix_1749350424625_1749350424669"
   }
 ]
