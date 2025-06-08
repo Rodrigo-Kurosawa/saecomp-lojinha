@@ -17,11 +17,8 @@ const Header = () => {
                 <nav className="navigation">
                     <ul>
                         <li>
-                            <Link to="/">Início</Link>
-                        </li>
-                        <li>
                             <Link to="/cart" className="cart-link">
-                                Carrinho 
+                                <img src="/carrinho.png" alt="Carrinho" className="cart-icon" />
                                 {itemCount > 0 && <span className="cart-count">{itemCount}</span>}
                             </Link>
                         </li>

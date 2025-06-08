@@ -1183,5 +1183,24 @@
     "createdAt": "2025-06-08T17:49:51.118Z",
     "updatedAt": "2025-06-08T17:49:51.148Z",
     "paymentId": "pix_1749404991118_1749404991147"
+  },
+  {
+    "customerCourse": "Engenharia de Computação",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Coca-Cola",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      }
+    ],
+    "totalAmount": 4.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749408615102",
+    "createdAt": "2025-06-08T18:50:15.102Z",
+    "updatedAt": "2025-06-08T18:50:15.160Z",
+    "paymentId": "pix_1749408615102_1749408615160"
   }
 ]

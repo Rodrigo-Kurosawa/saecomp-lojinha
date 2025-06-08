@@ -165,14 +165,20 @@ const Checkout: React.FC = () => {
 
                             <div className="form-group">
                                 <label htmlFor="course">Curso que faz (opcional)</label>
-                                <input
-                                    type="text"
+                                <select
                                     id="course"
                                     name="course"
                                     value={customerData.course}
                                     onChange={handleInputChange}
-                                    placeholder="Ex: Ciência da Computação"
-                                />
+                                >
+                                    <option value="">Selecione seu curso</option>
+                                    <option value="Engenharia de Computação">Engenharia de Computação</option>
+                                    <option value="Engenharia Ambiental">Engenharia Ambiental</option>
+                                    <option value="Engenharia Aeronáutica">Engenharia Aeronáutica</option>
+                                    <option value="Engenharia de Materiais">Engenharia de Materiais</option>
+                                    <option value="Professores/Funcionários">Professores/Funcionários</option>
+                                    <option value="Outros">Outros</option>
+                                </select>
                             </div>
 
                             <div className="payment-info">
