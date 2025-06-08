@@ -120,6 +120,7 @@
   width: 100%;
   padding: 12px;
   border: 2px solid #dee2e6;
+  background: white;
   border-radius: 5px;
   font-size: 16px;
   transition: border-color 0.3s ease;
@@ -135,6 +136,20 @@
 .form-group textarea {
   resize: vertical;
   font-family: inherit;
+}
+
+/* Placeholder option styling */
+.form-group select option[value=""] {
+  color: #999;
+}
+
+/* Select placeholder styling when no value is selected */
+.form-group select.placeholder-selected {
+  color: #999;
+}
+
+.form-group select option {
+  color: #333;
 }
 
 .payment-info {

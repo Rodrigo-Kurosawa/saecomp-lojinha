@@ -1227,5 +1227,62 @@
     "createdAt": "2025-06-08T19:19:02.407Z",
     "updatedAt": "2025-06-08T19:19:02.440Z",
     "paymentId": "pix_1749410342407_1749410342439"
+  },
+  {
+    "customerName": "rodrigo",
+    "customerCourse": "Engenharia de Computação",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Coca-Cola Zero",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      }
+    ],
+    "totalAmount": 4.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749411275049",
+    "createdAt": "2025-06-08T19:34:35.049Z",
+    "updatedAt": "2025-06-08T19:34:35.091Z",
+    "paymentId": "pix_1749411275049_1749411275091"
+  },
+  {
+    "customerCourse": "Engenharia de Computação",
+    "items": [
+      {
+        "productId": "6",
+        "name": "Kit Kat",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749411944771",
+    "createdAt": "2025-06-08T19:45:44.771Z",
+    "updatedAt": "2025-06-08T19:45:44.806Z",
+    "paymentId": "pix_1749411944771_1749411944805"
+  },
+  {
+    "items": [
+      {
+        "productId": "6",
+        "name": "Kit Kat",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749412010127",
+    "createdAt": "2025-06-08T19:46:50.127Z",
+    "updatedAt": "2025-06-08T19:46:50.212Z",
+    "paymentId": "pix_1749412010127_1749412010211"
   }
 ]

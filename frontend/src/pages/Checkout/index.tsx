@@ -152,7 +152,7 @@ const Checkout: React.FC = () => {
                         
                         <form onSubmit={(e) => { e.preventDefault(); handleSubmitOrder(); }}>
                             <div className="form-group">
-                                <label htmlFor="name">Nome (opcional)</label>
+                                <label htmlFor="name">Nome</label>
                                 <input
                                     type="text"
                                     id="name"
@@ -164,12 +164,13 @@ const Checkout: React.FC = () => {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="course">Curso que faz (opcional)</label>
+                                <label htmlFor="course">Curso que faz</label>
                                 <select
                                     id="course"
                                     name="course"
                                     value={customerData.course}
                                     onChange={handleInputChange}
+                                    className={customerData.course === '' ? 'placeholder-selected' : ''}
                                 >
                                     <option value="">Selecione seu curso</option>
                                     <option value="Engenharia de Computação">Engenharia de Computação</option>
