@@ -1202,5 +1202,30 @@
     "createdAt": "2025-06-08T18:50:15.102Z",
     "updatedAt": "2025-06-08T18:50:15.160Z",
     "paymentId": "pix_1749408615102_1749408615160"
+  },
+  {
+    "items": [
+      {
+        "productId": "11",
+        "name": "Trident",
+        "price": 2.5,
+        "quantity": 1,
+        "subtotal": 2.5
+      },
+      {
+        "productId": "2",
+        "name": "Coca-Cola Zero",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      }
+    ],
+    "totalAmount": 7,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749410342407",
+    "createdAt": "2025-06-08T19:19:02.407Z",
+    "updatedAt": "2025-06-08T19:19:02.440Z",
+    "paymentId": "pix_1749410342407_1749410342439"
   }
 ]

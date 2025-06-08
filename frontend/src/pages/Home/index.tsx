@@ -50,7 +50,7 @@ const Home = () => {
         <div className="home">
             <div className="hero-section">
                 <h1>Lojinha SAECOMP</h1>
-                <p>Deliciosos doces, salgados e bebidas para sua pausa!</p>
+                <p>Deliciosos doces, salgados e bebidas</p>
             </div>
             
             <CategoryTabs 

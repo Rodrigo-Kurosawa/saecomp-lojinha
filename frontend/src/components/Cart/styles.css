@@ -31,6 +31,19 @@
   background: #d32f2f;
 }
 
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.mobile-clear-cart {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .cart-empty {
   text-align: center;
   padding: 80px 20px;
@@ -67,6 +80,7 @@
 
 .continue-shopping:hover {
   background: #007933;
+  color: white;
 }
 
 .cart-content {
@@ -261,6 +275,14 @@
 }
 
 @media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+  
+  .mobile-only {
+    display: block;
+  }
+  
   .cart-header {
     flex-direction: column;
     gap: 16px;

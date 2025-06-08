@@ -41,7 +41,7 @@ const Cart = () => {
             <div className="container">
                 <div className="cart-header">
                     <h1>Meu Carrinho</h1>
-                    <button onClick={handleClearCart} className="clear-cart-btn">
+                    <button onClick={handleClearCart} className="clear-cart-btn desktop-only">
                         Limpar Carrinho
                     </button>
                 </div>
@@ -94,6 +94,13 @@ const Cart = () => {
                                 </div>
                             </div>
                         ))}
+                        
+                        {/* Botão Limpar Carrinho para Mobile */}
+                        <div className="mobile-clear-cart">
+                            <button onClick={handleClearCart} className="clear-cart-btn mobile-only">
+                                Limpar Carrinho
+                            </button>
+                        </div>
                     </div>
                     
                     <div className="cart-summary">
