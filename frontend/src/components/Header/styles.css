@@ -1,5 +1,5 @@
 .header {
-  background: #00BF63;
+  background: #03B04B;
   color: white;
   position: sticky;
   top: 0;
@@ -62,7 +62,7 @@
 
 .navigation a:hover {
   color: white;
-  background: rgba(255, 255, 255, 0.1);
+  background: #007933;
 }
 
 .cart-link {

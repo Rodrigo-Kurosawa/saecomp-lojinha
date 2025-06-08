@@ -996,5 +996,120 @@
     "createdAt": "2025-06-08T04:02:51.667Z",
     "updatedAt": "2025-06-08T04:02:51.712Z",
     "paymentId": "pix_1749355371667_1749355371712"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 3,
+        "subtotal": 9
+      },
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 4,
+        "subtotal": 12
+      }
+    ],
+    "totalAmount": 21,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749395409289",
+    "createdAt": "2025-06-08T15:10:09.289Z",
+    "updatedAt": "2025-06-08T15:10:09.315Z",
+    "paymentId": "pix_1749395409289_1749395409315"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749395589906",
+    "createdAt": "2025-06-08T15:13:09.906Z",
+    "updatedAt": "2025-06-08T15:13:09.933Z",
+    "paymentId": "pix_1749395589906_1749395589933"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749395728641",
+    "createdAt": "2025-06-08T15:15:28.641Z",
+    "updatedAt": "2025-06-08T15:15:28.712Z",
+    "paymentId": "pix_1749395728641_1749395728711"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 4,
+        "subtotal": 12
+      }
+    ],
+    "totalAmount": 12,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749396198921",
+    "createdAt": "2025-06-08T15:23:18.921Z",
+    "updatedAt": "2025-06-08T15:23:18.960Z",
+    "paymentId": "pix_1749396198921_1749396198960"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 2,
+        "subtotal": 6
+      }
+    ],
+    "totalAmount": 6,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749396429957",
+    "createdAt": "2025-06-08T15:27:09.957Z",
+    "updatedAt": "2025-06-08T15:27:09.988Z",
+    "paymentId": "pix_1749396429957_1749396429988"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749396601754",
+    "createdAt": "2025-06-08T15:30:01.754Z",
+    "updatedAt": "2025-06-08T15:30:01.784Z",
+    "paymentId": "pix_1749396601754_1749396601784"
   }
 ]

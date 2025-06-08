@@ -81,7 +81,7 @@
 .product-price {
   font-size: 2rem;
   font-weight: bold;
-  color: #28a745;
+  color: #03B04B;
 }
 
 .product-stock {
@@ -89,7 +89,7 @@
 }
 
 .in-stock {
-  color: #28a745;
+  color: #03B04B;
   font-weight: 500;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .quantity-controls button {
-  background: #007bff;
+  background: #03B04B;
   color: white;
   border: none;
   width: 40px;
@@ -136,7 +136,7 @@
 }
 
 .quantity-controls button:hover:not(:disabled) {
-  background-color: #0056b3;
+  background-color: #007933;
 }
 
 .quantity-controls button:disabled {
@@ -154,7 +154,7 @@
 }
 
 .add-to-cart-button {
-  background: linear-gradient(135deg, #007bff, #0056b3);
+  background: linear-gradient(135deg, #03B04B, #007933);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -169,7 +169,7 @@
 
 .add-to-cart-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 5px 15px rgba(3, 176, 75, 0.4);
 }
 
 .product-details-loading {
@@ -185,7 +185,7 @@
   width: 40px;
   height: 40px;
   border: 4px solid #f3f3f3;
-  border-top: 4px solid #007bff;
+  border-top: 4px solid #03B04B;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }

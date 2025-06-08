@@ -29,7 +29,7 @@
 .order-summary h2 {
   color: #333;
   margin-bottom: 20px;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #03B04B;
   padding-bottom: 10px;
 }
 
@@ -73,7 +73,7 @@
 
 .item-total {
   font-weight: bold;
-  color: #007bff !important;
+  color: #03B04B !important;
 }
 
 .total-amount {
@@ -83,7 +83,7 @@
 }
 
 .total-amount h3 {
-  color: #28a745;
+  color: #03B04B;
   font-size: 1.5rem;
   margin: 0;
 }
@@ -99,7 +99,7 @@
 .customer-form h2 {
   color: #333;
   margin-bottom: 20px;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #03B04B;
   padding-bottom: 10px;
 }
 
@@ -127,7 +127,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #03B04B;
 }
 
 .form-group textarea {
@@ -136,8 +136,8 @@
 }
 
 .payment-info {
-  background-color: #e7f3ff;
-  border: 1px solid #007bff;
+  background-color: #e8f5e8;
+  border: 1px solid #03B04B;
   border-radius: 8px;
   padding: 15px;
   margin: 20px 0;
@@ -145,7 +145,7 @@
 
 .payment-info p {
   margin: 5px 0;
-  color: #0056b3;
+  color: #007933;
 }
 
 .payment-info p:first-child {
@@ -185,7 +185,7 @@
 }
 
 .submit-button {
-  background: linear-gradient(135deg, #007bff, #0056b3);
+  background: linear-gradient(135deg, #03B04B, #007933);
   color: white;
   border: none;
   padding: 12px 25px;
@@ -200,7 +200,7 @@
 
 .submit-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 5px 15px rgba(3, 176, 75, 0.4);
 }
 
 .submit-button:disabled {
@@ -222,7 +222,7 @@
 .pix-payment h2 {
   color: #333;
   margin-bottom: 20px;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #03B04B;
   padding-bottom: 10px;
 }
 
@@ -257,8 +257,8 @@
 }
 
 .payment-info {
-  background: #e7f3ff;
-  border: 1px solid #b3d9ff;
+  background: #e8f5e8;
+  border: 1px solid #03B04B;
   border-radius: 5px;
   padding: 15px;
   margin: 20px 0;
@@ -277,7 +277,7 @@
 }
 
 .confirm-payment-button {
-  background: linear-gradient(135deg, #28a745, #1e7e34);
+  background: linear-gradient(135deg, #03B04B, #007933);
   color: white;
   border: none;
   padding: 12px 25px;
@@ -292,7 +292,7 @@
 
 .confirm-payment-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+  box-shadow: 0 5px 15px rgba(3, 176, 75, 0.4);
 }
 
 /* Responsive Design */
