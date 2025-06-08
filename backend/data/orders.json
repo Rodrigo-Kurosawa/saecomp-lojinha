@@ -1147,5 +1147,41 @@
     "createdAt": "2025-06-08T16:13:00.109Z",
     "updatedAt": "2025-06-08T16:13:00.140Z",
     "paymentId": "pix_1749399180109_1749399180140"
+  },
+  {
+    "items": [
+      {
+        "productId": "7",
+        "name": "Snickers",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      }
+    ],
+    "totalAmount": 4.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749404636232",
+    "createdAt": "2025-06-08T17:43:56.232Z",
+    "updatedAt": "2025-06-08T17:43:56.286Z",
+    "paymentId": "pix_1749404636232_1749404636285"
+  },
+  {
+    "items": [
+      {
+        "productId": "12",
+        "name": "Amendoim",
+        "price": 3.5,
+        "quantity": 1,
+        "subtotal": 3.5
+      }
+    ],
+    "totalAmount": 3.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749404991118",
+    "createdAt": "2025-06-08T17:49:51.118Z",
+    "updatedAt": "2025-06-08T17:49:51.148Z",
+    "paymentId": "pix_1749404991118_1749404991147"
   }
 ]
