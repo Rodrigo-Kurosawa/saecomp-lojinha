@@ -55,7 +55,7 @@ const Cart = () => {
                                     alt={item.name} 
                                     className="item-image"
                                     onError={(e) => {
-                                        e.currentTarget.src = '/placeholder-product.png';
+                                        e.currentTarget.src = '/placeholder-product.svg';
                                     }}
                                 />
                                 <div className="item-details">

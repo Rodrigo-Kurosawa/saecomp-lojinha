@@ -29,7 +29,7 @@ const Checkout: React.FC = () => {
         }
     }, [cartItems, navigate]);
 
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
         setCustomerData(prev => ({
             ...prev,
@@ -125,7 +125,7 @@ const Checkout: React.FC = () => {
                         {cartItems.map((item) => (
                             <div key={item._id} className="cart-item">
                                 <img 
-                                    src={item.imageUrl || '/placeholder-product.jpg'} 
+                                    src={item.imageUrl || '/placeholder-product.svg'} 
                                     alt={item.name}
                                     className="item-image"
                                 />

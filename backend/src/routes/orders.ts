@@ -27,7 +27,6 @@ router.get('/:id', getOrderByIdValidation, getOrderById);
 
 // Test endpoint for debugging
 router.post('/test', (req, res) => {
-  console.log('Test endpoint hit:', req.body);
   try {
     res.status(200).json({
       success: true,

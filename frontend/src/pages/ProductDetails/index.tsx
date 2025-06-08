@@ -96,7 +96,7 @@ const ProductDetails: React.FC = () => {
                 <div className="product-details-content">
                     <div className="product-image-section">
                         <img 
-                            src={product.imageUrl || '/placeholder-product.jpg'} 
+                            src={product.imageUrl || '/placeholder-product.svg'} 
                             alt={product.name}
                             className="product-image"
                         />
