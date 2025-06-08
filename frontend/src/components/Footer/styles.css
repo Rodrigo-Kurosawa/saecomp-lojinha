@@ -18,6 +18,16 @@
   flex: 1;
 }
 
+.footer-logo {
+  margin-bottom: 12px;
+}
+
+.footer-logo-image {
+  height: 40px;
+  width: auto;
+  opacity: 0.9;
+}
+
 .footer-text {
   font-size: 0.9rem;
   line-height: 1.4;

@@ -21,20 +21,17 @@
 .logo a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
-.logo h1 {
-  color: white;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin: 0;
-  transition: color 0.2s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.logo-image {
+  height: 50px;
+  width: auto;
+  transition: opacity 0.2s ease;
 }
 
-.logo h1:hover {
-  color: rgba(255, 255, 255, 0.8);
+.logo-image:hover {
+  opacity: 0.8;
 }
 
 .navigation ul {

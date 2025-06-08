@@ -30,10 +30,10 @@
     "price": 3,
     "imageUrl": "/images/refrigerante.svg",
     "category": "bebidas",
-    "stock": 61,
+    "stock": 60,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-08T15:30:01.755Z"
+    "updatedAt": "2025-06-08T16:05:53.580Z"
   },
   {
     "_id": "4",
@@ -54,9 +54,9 @@
     "price": 3,
     "imageUrl": "/images/beijinho.svg",
     "category": "doces",
-    "stock": 23,
+    "stock": 22,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-08T15:10:09.290Z"
+    "updatedAt": "2025-06-08T16:13:00.111Z"
   }
 ]

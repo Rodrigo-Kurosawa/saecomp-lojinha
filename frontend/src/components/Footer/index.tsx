@@ -6,6 +6,9 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-left">
+          <div className="footer-logo">
+            <img src="/images/Logo-saecomp.png" alt="SAECOMP" className="footer-logo-image" />
+          </div>
           <p className="footer-text">Secretaria Acadêmica de Engenharia da Computação</p>
           <p className="footer-text">ICMC/EESC</p>
           <p className="footer-text">Universidade de São Paulo</p>

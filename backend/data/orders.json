@@ -1111,5 +1111,41 @@
     "createdAt": "2025-06-08T15:30:01.754Z",
     "updatedAt": "2025-06-08T15:30:01.784Z",
     "paymentId": "pix_1749396601754_1749396601784"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749398753579",
+    "createdAt": "2025-06-08T16:05:53.579Z",
+    "updatedAt": "2025-06-08T16:05:53.622Z",
+    "paymentId": "pix_1749398753579_1749398753621"
+  },
+  {
+    "items": [
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749399180109",
+    "createdAt": "2025-06-08T16:13:00.109Z",
+    "updatedAt": "2025-06-08T16:13:00.140Z",
+    "paymentId": "pix_1749399180109_1749399180140"
   }
 ]
