@@ -11,13 +11,20 @@ const Header = () => {
             <div className="header-container">
                 <div className="logo">
                     <Link to="/">
-                        <img src="/images/Logo-saecomp.png" alt="SAECOMP" className="logo-image" />
+                        <h1>SAEComp Lojinha</h1>
                     </Link>
                 </div>
                 <nav className="navigation">
                     <ul>
                         <li>
-                            <Link to="/">Início</Link>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Produtos</Link>
+                        </li>
+                        <li>
+                            <Link to="#" onClick={(e) => e.preventDefault()}>Sobre</Link>
+                        </li>
                         </li>
                         <li>
                             <Link to="/cart" className="cart-link">
