@@ -1284,5 +1284,94 @@
     "createdAt": "2025-06-08T19:46:50.127Z",
     "updatedAt": "2025-06-08T19:46:50.212Z",
     "paymentId": "pix_1749412010127_1749412010211"
+  },
+  {
+    "customerName": "rodrigo",
+    "items": [
+      {
+        "productId": "3",
+        "name": "Guaraná",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      },
+      {
+        "productId": "2",
+        "name": "Coca-Cola Zero",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      }
+    ],
+    "totalAmount": 8.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749423965309",
+    "createdAt": "2025-06-08T23:06:05.309Z",
+    "updatedAt": "2025-06-08T23:06:05.392Z",
+    "paymentId": "pix_1749423965309_1749423965392"
+  },
+  {
+    "customerCourse": "Engenharia de Computação",
+    "items": [
+      {
+        "productId": "5",
+        "name": "Doritos",
+        "price": 6.5,
+        "quantity": 1,
+        "subtotal": 6.5
+      },
+      {
+        "productId": "8",
+        "name": "Torcida",
+        "price": 5.5,
+        "quantity": 1,
+        "subtotal": 5.5
+      }
+    ],
+    "totalAmount": 12,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749424135772",
+    "createdAt": "2025-06-08T23:08:55.772Z",
+    "updatedAt": "2025-06-08T23:08:55.813Z",
+    "paymentId": "pix_1749424135772_1749424135812"
+  },
+  {
+    "customerCourse": "Engenharia de Computação",
+    "items": [
+      {
+        "productId": "6",
+        "name": "Kit Kat",
+        "price": 4,
+        "quantity": 1,
+        "subtotal": 4
+      }
+    ],
+    "totalAmount": 4,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749426487424",
+    "createdAt": "2025-06-08T23:48:07.424Z",
+    "updatedAt": "2025-06-08T23:48:07.451Z",
+    "paymentId": "pix_1749426487424_1749426487450"
+  },
+  {
+    "items": [
+      {
+        "productId": "7",
+        "name": "Snickers",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      }
+    ],
+    "totalAmount": 4.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749426596658",
+    "createdAt": "2025-06-08T23:49:56.658Z",
+    "updatedAt": "2025-06-08T23:49:56.689Z",
+    "paymentId": "pix_1749426596658_1749426596689"
   }
 ]
