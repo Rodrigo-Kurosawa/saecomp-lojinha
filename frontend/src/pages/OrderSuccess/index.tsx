@@ -44,8 +44,6 @@ const OrderSuccess = () => {
           <div className="next-steps">
             <h3>Próximos Passos</h3>
             <ul>
-              <li>Se você ainda não fez o pagamento, volte para finalizar</li>
-              <li>Após a confirmação do pagamento, seu pedido será preparado</li>
               <li>Você pode retirar seu pedido na lojinha SAEComp</li>
             </ul>
           </div>
@@ -55,9 +53,9 @@ const OrderSuccess = () => {
           <button onClick={handleBackToHome} className="primary-button">
             Fazer Novo Pedido
           </button>
-          <button onClick={() => window.print()} className="secondary-button">
+          {/* <button onClick={() => window.print()} className="secondary-button">
             Imprimir Comprovante
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

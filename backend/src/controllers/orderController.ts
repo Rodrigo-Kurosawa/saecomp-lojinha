@@ -72,18 +72,18 @@ export const createOrder = async (req: Request, res: Response) => {
   try {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).json({
+      res.status(400).json({
         success: false,
         message: 'Dados inválidos',
         errors: errors.array()
       });
+      return;
     }
 
     const { items, customerName, customerCourse, notes } = req.body;
 
     // Validate items and check stock
     const products = await Product.find();
-    
     const validatedItems = [];
     let totalAmount = 0;
 
@@ -91,17 +91,19 @@ export const createOrder = async (req: Request, res: Response) => {
       const product = products.find((p: IProduct) => p._id === item.productId);
       
       if (!product) {
-        return res.status(404).json({
+        res.status(404).json({
           success: false,
           message: `Produto não encontrado: ${item.productId}`
         });
+        return;
       }
 
       if (product.stock < item.quantity) {
-        return res.status(400).json({
+        res.status(400).json({
           success: false,
           message: `Estoque insuficiente para ${product.name}. Disponível: ${product.stock}`
         });
+        return;
       }
 
       const subtotal = product.price * item.quantity;

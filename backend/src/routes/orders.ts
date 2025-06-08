@@ -25,8 +25,23 @@ router.get('/status/:status', getOrdersByStatusValidation, getOrdersByStatus);
 // GET /api/orders/:id - Get order by ID
 router.get('/:id', getOrderByIdValidation, getOrderById);
 
-// POST /api/orders - Create new order
-router.post('/', createOrderValidation, createOrder);
+// Test endpoint for debugging
+router.post('/test', (req, res) => {
+  console.log('Test endpoint hit:', req.body);
+  try {
+    res.status(200).json({
+      success: true,
+      message: 'Test endpoint working',
+      received: req.body
+    });
+  } catch (error) {
+    console.error('Error in test endpoint:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// POST /api/orders - Create new order (temporarily without validation)
+router.post('/', createOrder);
 
 // PUT /api/orders/:id/status - Update order status
 router.put('/:id/status', updateOrderStatusValidation, updateOrderStatus);

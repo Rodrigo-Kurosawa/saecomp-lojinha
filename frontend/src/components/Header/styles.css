@@ -1,10 +1,11 @@
 .header {
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #00BF63;
+  color: white;
   position: sticky;
   top: 0;
   z-index: 100;
   margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .header-container {
@@ -23,15 +24,17 @@
 }
 
 .logo h1 {
-  color: #4CAF50;
+  color: white;
   font-size: 1.8rem;
   font-weight: 700;
   margin: 0;
   transition: color 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .logo h1:hover {
-  color: #2c5e2e;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .navigation ul {
@@ -49,17 +52,17 @@
 
 .navigation a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: 500;
   font-size: 1rem;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border-radius: 6px;
   transition: all 0.2s ease;
 }
 
 .navigation a:hover {
-  color: #4CAF50;
-  background: rgba(76, 175, 80, 0.1);
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .cart-link {

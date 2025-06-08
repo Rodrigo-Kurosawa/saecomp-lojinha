@@ -49,7 +49,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="hero-section">
-                <h1>Bem-vindo à Lojinha SAEComp</h1>
+                <h1>Lojinha SAECOMP</h1>
                 <p>Deliciosos doces, salgados e bebidas para sua pausa!</p>
             </div>
             

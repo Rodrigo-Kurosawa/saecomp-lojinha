@@ -33,14 +33,14 @@
 }
 
 .tab:hover {
-  background: rgba(76, 175, 80, 0.1);
+  background: rgba(0, 191, 99, 0.1);
 }
 
 .tab.active {
-  background: #4CAF50;
+  background: #00BF63;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 191, 99, 0.3);
 }
 
 .tab-icon {

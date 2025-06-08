@@ -11,13 +11,13 @@ const Header = () => {
             <div className="header-container">
                 <div className="logo">
                     <Link to="/">
-                        <h1>SAEComp Lojinha</h1>
+                        <h1>SAECOMP</h1>
                     </Link>
                 </div>
                 <nav className="navigation">
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/">Início</Link>
                         </li>
                         <li>
                             <Link to="/cart" className="cart-link">

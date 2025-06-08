@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './hooks/useCart';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import ProductDetails from './pages/ProductDetails';
 import Checkout from './pages/Checkout';
@@ -24,6 +25,7 @@ const App: React.FC = () => {
               <Route path="/cart" element={<Cart />} />
             </Routes>
           </main>
+          <Footer />
         </div>
       </Router>
     </CartProvider>
