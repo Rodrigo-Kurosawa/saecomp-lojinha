@@ -7,10 +7,10 @@ interface CategoryTabsProps {
 }
 
 const categories = [
-  { id: 'all', name: 'Todos', icon: '🛒' },
-  { id: 'doces', name: 'Doces', icon: '🍬' },
-  { id: 'salgados', name: 'Salgados', icon: '🥪' },
-  { id: 'bebidas', name: 'Bebidas', icon: '🥤' },
+  { id: 'all', name: 'Todos' },
+  { id: 'doces', name: 'Doces' },
+  { id: 'salgados', name: 'Salgados' },
+  { id: 'bebidas', name: 'Bebidas' },
 ] as const;
 
 const CategoryTabs = ({ selectedCategory, onCategoryChange }: CategoryTabsProps) => {
@@ -23,7 +23,6 @@ const CategoryTabs = ({ selectedCategory, onCategoryChange }: CategoryTabsProps)
             className={`tab ${selectedCategory === category.id ? 'active' : ''}`}
             onClick={() => onCategoryChange(category.id)}
           >
-            <span className="tab-icon">{category.icon}</span>
             <span className="tab-name">{category.name}</span>
           </button>
         ))}

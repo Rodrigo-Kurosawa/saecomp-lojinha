@@ -51,6 +51,7 @@
 
 .social-link:hover {
   background-color: #03B04B;
+  color: white;
   transform: translateY(-2px);
 }
 
