@@ -30,10 +30,10 @@
     "price": 3,
     "imageUrl": "/images/refrigerante.svg",
     "category": "bebidas",
-    "stock": 85,
+    "stock": 83,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T23:02:36.399Z"
+    "updatedAt": "2025-06-07T23:48:52.401Z"
   },
   {
     "_id": "4",
@@ -42,10 +42,10 @@
     "price": 5,
     "imageUrl": "/images/pastel.svg",
     "category": "salgados",
-    "stock": 25,
+    "stock": 24,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-04T16:27:02.103Z"
+    "updatedAt": "2025-06-08T00:01:19.114Z"
   },
   {
     "_id": "5",
@@ -54,9 +54,9 @@
     "price": 3,
     "imageUrl": "/images/beijinho.svg",
     "category": "doces",
-    "stock": 33,
+    "stock": 32,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T23:03:55.163Z"
+    "updatedAt": "2025-06-08T00:01:57.524Z"
   }
 ]

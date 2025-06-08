@@ -20,9 +20,6 @@ const Header = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/products">Produtos</Link>
-                        </li>
-                        <li>
                             <Link to="/cart" className="cart-link">
                                 Carrinho 
                                 {itemCount > 0 && <span className="cart-count">{itemCount}</span>}

@@ -645,5 +645,59 @@
     "createdAt": "2025-06-07T23:03:55.162Z",
     "updatedAt": "2025-06-07T23:03:55.189Z",
     "paymentId": "pix_1749337435162_1749337435188"
+  },
+  {
+    "items": [
+      {
+        "productId": "3",
+        "name": "Refrigerante Lata",
+        "price": 3,
+        "quantity": 2,
+        "subtotal": 6
+      }
+    ],
+    "totalAmount": 6,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749340132400",
+    "createdAt": "2025-06-07T23:48:52.400Z",
+    "updatedAt": "2025-06-07T23:48:52.489Z",
+    "paymentId": "pix_1749340132400_1749340132488"
+  },
+  {
+    "items": [
+      {
+        "productId": "4",
+        "name": "Pastel de Queijo",
+        "price": 5,
+        "quantity": 1,
+        "subtotal": 5
+      }
+    ],
+    "totalAmount": 5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749340879113",
+    "createdAt": "2025-06-08T00:01:19.113Z",
+    "updatedAt": "2025-06-08T00:01:19.202Z",
+    "paymentId": "pix_1749340879113_1749340879202"
+  },
+  {
+    "items": [
+      {
+        "productId": "5",
+        "name": "Beijinho",
+        "price": 3,
+        "quantity": 1,
+        "subtotal": 3
+      }
+    ],
+    "totalAmount": 3,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1749340917523",
+    "createdAt": "2025-06-08T00:01:57.523Z",
+    "updatedAt": "2025-06-08T00:01:57.572Z",
+    "paymentId": "pix_1749340917523_1749340917572"
   }
 ]
