@@ -6,10 +6,10 @@
     "price": 3.5,
     "imageUrl": "/images/brigadeiro.svg",
     "category": "doces",
-    "stock": 5,
+    "stock": 0,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T23:00:22.819Z"
+    "updatedAt": "2025-06-08T02:31:09.379Z"
   },
   {
     "_id": "2",
@@ -30,10 +30,10 @@
     "price": 3,
     "imageUrl": "/images/refrigerante.svg",
     "category": "bebidas",
-    "stock": 83,
+    "stock": 79,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-07T23:48:52.401Z"
+    "updatedAt": "2025-06-08T02:39:25.645Z"
   },
   {
     "_id": "4",
@@ -54,9 +54,9 @@
     "price": 3,
     "imageUrl": "/images/beijinho.svg",
     "category": "doces",
-    "stock": 32,
+    "stock": 23,
     "isActive": true,
     "createdAt": "2025-06-04T16:27:02.103Z",
-    "updatedAt": "2025-06-08T00:01:57.524Z"
+    "updatedAt": "2025-06-08T02:40:24.626Z"
   }
 ]

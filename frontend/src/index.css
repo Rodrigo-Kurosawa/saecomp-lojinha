@@ -1,0 +1,52 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --saecomp-green: #4CAF50;
+  --saecomp-green-dark: #03B04B;
+  --saecomp-green-secondary: #238d41;
+  --saecomp-dark: #1a1a1a;
+  --saecomp-gray: #f8f9fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.saecomp-gradient {
+  background: linear-gradient(135deg, #4CAF50 0%, #1a1a1a 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #4CAF50 0%, #1a1a1a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hover-pink:hover {
+  color: var(--saecomp-pink);
+  text-shadow: 0px 0px 25px rgba(238, 9, 122, 0.3);
+  transition: all 0.3s ease;
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s ease;
+}
+
+.card-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 24px;
+  transform: translateY(-2px);
+}
