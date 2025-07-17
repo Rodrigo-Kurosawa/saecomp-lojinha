@@ -1373,5 +1373,23 @@
     "createdAt": "2025-06-08T23:49:56.658Z",
     "updatedAt": "2025-06-08T23:49:56.689Z",
     "paymentId": "pix_1749426596658_1749426596689"
+  },
+  {
+    "items": [
+      {
+        "productId": "11",
+        "name": "Trident",
+        "price": 2.5,
+        "quantity": 1,
+        "subtotal": 2.5
+      }
+    ],
+    "totalAmount": 2.5,
+    "status": "pending",
+    "paymentStatus": "pending",
+    "_id": "1752710805911",
+    "createdAt": "2025-07-17T00:06:45.911Z",
+    "updatedAt": "2025-07-17T00:06:46.015Z",
+    "paymentId": "pix_1752710805911_1752710806014"
   }
 ]

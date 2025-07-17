@@ -30,7 +30,7 @@
     "price": 4,
     "imageUrl": "/images/guarana.png",
     "category": "bebidas",
-    "stock": 44,
+    "stock": 7,
     "isActive": true,
     "createdAt": "2025-06-08T16:00:00.000Z",
     "updatedAt": "2025-06-08T23:06:05.310Z"
@@ -42,7 +42,7 @@
     "price": 4,
     "imageUrl": "/images/guarana-zero.png",
     "category": "bebidas",
-    "stock": 35,
+    "stock": 3,
     "isActive": true,
     "createdAt": "2025-06-08T16:00:00.000Z",
     "updatedAt": "2025-06-08T16:00:00.000Z"
@@ -66,7 +66,7 @@
     "price": 4,
     "imageUrl": "/images/Kit-Kat.png",
     "category": "doces",
-    "stock": 22,
+    "stock": 0,
     "isActive": true,
     "createdAt": "2025-06-08T16:00:00.000Z",
     "updatedAt": "2025-06-08T23:48:07.424Z"

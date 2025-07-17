@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Product } from '../../types';
 import { useCart } from '../../hooks/useCart';
 import { productService } from '../../services/api';
+import StockIndicator from '../../components/StockIndicator';
 import './styles.css';
 
 const ProductDetails: React.FC = () => {
@@ -111,13 +112,7 @@ const ProductDetails: React.FC = () => {
                             R$ {product.price.toFixed(2)}
                         </div>
                         
-                        <div className="product-stock">
-                            {product.stock > 0 ? (
-                                <span className="in-stock">✓ Em estoque ({product.stock} disponíveis)</span>
-                            ) : (
-                                <span className="out-of-stock">✗ Fora de estoque</span>
-                            )}
-                        </div>
+                        <StockIndicator stock={product.stock} showWarning={true} />
                         
                         {product.stock > 0 && (
                             <div className="purchase-section">

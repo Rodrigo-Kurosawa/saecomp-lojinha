@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../../hooks/useCart';
+import StockIndicator from '../StockIndicator';
 import './styles.css';
 
 const Cart = () => {
@@ -62,6 +63,11 @@ const Cart = () => {
                                     <h3 className="item-name">{item.name}</h3>
                                     <p className="item-description">{item.description}</p>
                                     <p className="item-price">R$ {item.price.toFixed(2)}</p>
+                                    <StockIndicator 
+                                        stock={item.stock} 
+                                        showWarning={true} 
+                                        className="cart-variant"
+                                    />
                                 </div>
                                 <div className="item-controls">
                                     <div className="quantity-controls">
